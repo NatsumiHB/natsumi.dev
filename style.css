@@ -58,10 +58,18 @@ body {
 }
 #home a svg { fill: var(--pure-white); }
 
-@media (max-width: 890px) {
-    noscript {
-        text-align: center;
-    }
+.btn {
+    padding: 15px 32px;
+    border: 2px solid #CF78B3;
+
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #422639;
 }
 
 #projects h3 { font-weight: bolder; }

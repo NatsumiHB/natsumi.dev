@@ -55,8 +55,9 @@ body {
 
 #home a {
     margin: 8px 8px 0 0;
+
+    width: 100px;
 }
-#home a svg { fill: var(--pure-white); }
 
 .btn {
     padding: 15px 32px;

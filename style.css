@@ -50,17 +50,16 @@ body {
 #home h4 {
     margin: 2px 0 15px 0;
 
-	font-weight: 500;
+    font-weight: 500;
 }
 
 #home a {
     margin: 8px 8px 0 0;
-
-    width: 100px;
 }
 
 .btn {
     padding: 15px 32px;
+    width: 100px;
     border: 2px solid #CF78B3;
 
     -webkit-transition: background-color 0.5s ease-in-out;

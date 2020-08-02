@@ -58,8 +58,8 @@ body {
 }
 
 .btn {
+    width: 300px;
     padding: 15px 32px;
-    width: 100px;
     border: 2px solid #CF78B3;
 
     -webkit-transition: background-color 0.5s ease-in-out;

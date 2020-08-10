@@ -2,11 +2,11 @@ version: "3"
 
 services:
     web-server:
-        image: pierrezemb/gostatic
+        image: natsuwumi/rust-static
         ports:
-            - 8043:8043
+            - 8043:8000
         volumes:
-            - ./http:/srv/http
+            - ./http:/srv/RustStatic/http
         networks:
             -  proxy_net
 
